@@ -1,0 +1,65 @@
+ÖDEV-1
+
+Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+Pythonda Kullanılan Temel Veri Tipleri şunlardır;
+
+integer (tam sayılar)
+float (ondalıklı sayılar)
+boolean (True/False)
+string (metin)
+list (liste)
+tuple (demet)
+set (küme)
+dictionary (sözlük)
+
+integer= Tam sayıları tanımlamak için kullanılır. 
+a=50
+
+float, ondaklı sayı yada kayan noktalı sayıları tanımlamak için kullanılır.
+b=5.65
+
+boolean, mantıksal bir veri tipidir.True yada false değeri alabilir.
+c=True
+
+string, metinsel ifadeleri belirtmek için kullanılır, iki tırnak arasına yazılır.
+d="merhaba dünya" #yada d değişkenine atayabiliriz.
+
+Liste veri tipi, bir veya daha fazla veri elemanını içeren, değiştirilebilir.
+my_list = [1, 2, 3, "dört", 5.0]
+
+tuple, değiştirilemeyen veri tipidir. Birden fazla elemanı bir arada tutmak için kullanılır.
+my_tuple = ("apple", "banana", "cherry")
+
+set veri tipi birden fazla veri tutmak için kullanılabilir, fakat her eleman bir kez kullanılabilir, indeks yoktur, eleman çıkartılabilir ve yeni eleman eklenebilir.
+my_set = {1, 2, 3, 4, 5}
+
+
+
+Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+string örneği: Kurs isimleri ve açıklamaları
+integer örneği:Yorum sayısı, kursların tamamlanma oranı.
+
+
+
+Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz
+Log in kısmından örnek vericek olursak;
+
+email=input("Lütfen emailinizi giriniz:")
+password=input("Lütfen şifrenizi giriniz:")
+
+#kişinin emailinin k1_email ve şifresinin k1_password ile daha önce tutulduğunu varsayalım.
+
+k1_email="person1@gmail.com"
+k1_password="123456789"
+
+if email!=k1_email:
+    print("Lütfen doğru emaili giriniz!")
+    
+
+if password!=k1_password:
+    print("Lütfen doğru şifre girdiğinizden emin olun!")
+    
+else:
+    print("Sisteme hoş geldiniz!!!")
